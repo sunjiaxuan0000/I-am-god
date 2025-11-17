@@ -5,11 +5,12 @@ int main() {
 	cin >> a >> b >> c;
 	if (a + b > c && a + c > b && b + c > a) {
 		cout << a + b + c<<endl;
-		if (a == b && b == c && a == c) {
-			cout << "Èı½ÇĞÎÊÇµÈÑüÈı½ÇĞÎ" << endl;
+		if (a == b || b == c || a == c) {
+			cout << "ä¸‰è§’å½¢æ˜¯ç­‰è…°ä¸‰è§’å½¢" << endl;
 		}
 	}
 	else {
-		cout << "²»ÊÇÈı½ÇĞÎ";
+		cout << "ä¸æ˜¯ä¸‰è§’å½¢";
 	}
+
 }
